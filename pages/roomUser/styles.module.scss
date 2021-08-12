@@ -1,0 +1,162 @@
+.header{
+
+    height: 90px;
+
+
+
+  padding: 20px;
+
+  .contentHeader{
+      display: flex;
+      flex-direction: row;
+    
+      max-width: 1120px;
+      width: 100%;
+      justify-content: space-between;
+      margin: 0 auto;
+      align-items: center;
+
+      .logoImage{
+          max-width: 120px;
+          width: 100%;
+      }
+
+      .buttons{
+          display: flex;
+
+          align-items: center;
+              gap: 10px;
+          
+
+            button{
+                border: 1px solid #835AFD;
+                border-radius: 8px;
+                padding: 10px;
+                color:#835AFD;
+                background: white;
+                font-size: 14px;
+                font-weight: 500;
+                padding-right: 25px;
+                padding-left: 25px;
+                  transition: filter 0.2s;
+                &:hover{
+                    filter: brightness(0.9);
+                    cursor: pointer;
+                }
+            }
+      }
+  }
+
+}
+
+.content{
+     
+  padding: 20px;
+  max-width: 1120px;
+  width: 60%;
+
+ margin: 0 auto;
+   .title{
+       font-size: 24px;
+       font-weight: 700;
+       color:black;
+        margin-bottom: 15px;
+   }
+
+   form{
+      
+    width: 100%;
+    textarea{
+        resize: none;
+        width: 100%;
+        padding: 10px;
+        border-radius: 8px;
+    }
+
+    .footForm{
+        display: flex;
+        justify-content: space-between;
+       align-items: center;
+       margin-top: 10px;
+        P{
+            font-size: 14px;
+            color: gray;
+        }
+        .pButton{
+            background:transparent;
+            border: 0;
+            color: #835AFD;
+            &:hover{
+                cursor: pointer;
+            }
+            
+        }
+
+        .userInfo{
+            display: flex;
+            align-items: center;
+
+            img{
+                width: 32px;
+                height: 32px;
+
+                border-radius: 15px;
+              
+            }
+            p{
+                margin-left: 10px;
+            }
+        }
+
+        .sendButton{
+            background: #835AFD;
+            color: white;
+            padding: 13px 32px;
+            border:0;
+            border-radius: 8px;
+
+            font-size: 16px;
+            font-weight: 500;
+             transition: filter 0.2s;  
+            &:hover{
+                cursor: pointer;
+                filter: brightness(0.9);
+            }
+        }
+    }
+}
+
+   .content2{
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+
+  align-items: center;
+  max-width: 310px;
+  width: 100%;
+  margin-top: 50px;
+    
+  img{
+      max-width: 160px;
+      width: 100%;
+    
+  }
+    strong{
+        font-size: 18px;
+        font-weight: 600;
+        font-family: 'Poppins';
+        margin-bottom: 10px;
+    }
+
+    p{
+     
+        font-size: 14px;
+        font-weight: 400;
+        color:#737380;
+        line-height: 24px;
+       text-align: center;
+    }
+
+  
+   }
+}

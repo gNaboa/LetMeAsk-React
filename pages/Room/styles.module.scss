@@ -1,0 +1,120 @@
+.header{
+
+    height: 90px;
+
+
+
+  padding: 20px;
+
+  .contentHeader{
+      display: flex;
+      flex-direction: row;
+    
+      max-width: 1120px;
+      width: 100%;
+      justify-content: space-between;
+      margin: 0 auto;
+      align-items: center;
+
+      .logoImage{
+          max-width: 120px;
+          width: 100%;
+      }
+
+      .buttons{
+          display: flex;
+
+          align-items: center;
+              gap: 10px;
+            .roomButton{
+                display: flex;
+                border: 1px solid #835AFD;
+                padding: 10px;
+                border-radius: 8px;
+                background: #835AFD;
+                align-items: center;
+             
+                gap: 7px;
+
+               p{
+                   font-size: 14px;
+                   font-weight: 500;
+               }
+
+                div{
+               
+
+                    &:hover{
+                        cursor: pointer;
+                    }
+                }
+               
+            }
+
+            button{
+                border: 1px solid #835AFD;
+                border-radius: 8px;
+                padding: 10px;
+                color:#835AFD;
+                background: white;
+                font-size: 14px;
+                font-weight: 500;
+                padding-right: 25px;
+                padding-left: 25px;
+                  transition: filter 0.2s;
+                &:hover{
+                    filter: brightness(0.9);
+                    cursor: pointer;
+                }
+            }
+      }
+  }
+
+}
+
+.content{
+     
+  padding: 20px;
+  max-width: 1120px;
+  width: 100%;
+
+ margin: 0 auto;
+   .title{
+       font-size: 24px;
+       font-weight: 700;
+       color:black;
+       margin-top: 30px;
+   }
+
+   .content2{
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  
+  align-items: center;
+  max-width: 310px;
+  width: 100%;
+  margin-top: 100px;
+    
+  img{
+      max-width: 160px;
+      width: 100%;
+    
+  }
+    strong{
+        font-size: 18px;
+        font-weight: 600;
+        font-family: 'Poppins';
+        margin-bottom: 10px;
+    }
+
+    p{
+     
+        font-size: 14px;
+        font-weight: 400;
+        color:#737380;
+        line-height: 24px;
+       text-align: center;
+    }
+   }
+}
